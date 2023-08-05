@@ -1,6 +1,6 @@
 import React from "react";
 
-export const History = ({ history, moveTo,currentMove }) => {
+export  const History = ({ history, moveTo,currentMove }) => {
   return (
     <ul>
       {history.map((_, index) => {
