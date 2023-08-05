@@ -1,6 +1,6 @@
 # Tic Tac Toe Game
 
-A simple Tic Tac Toe game built using [insert technology/library used, e.g., React].
+A simple Tic Tac Toe game built using React.
 
 ## Features
 
