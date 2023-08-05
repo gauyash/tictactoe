@@ -1,25 +1,26 @@
-# BoxOffice App
+# Tic Tac Toe Game
 
-BoxOffice is a simple app built using React that allows you to search for TV series and actors, view detailed information on TV series, and save your favorite shows.
+A simple Tic Tac Toe game built using [insert technology/library used, e.g., React].
 
 ## Features
 
-- **Search TV Series and Actors:** Enter your search query in the search bar to find TV series and actors matching your query.
-- **View Detailed Information:** Click on a TV series to view detailed information, including the show's image, name, summary, genres, status, premiered date, and network.
-- **Save Favorite Shows:** You can star your favorite TV series to save them for later. The app will remember your favorite shows even after you close it.
-- **Clean and User-Friendly UI:** The user interface is designed to provide a clean and intuitive experience, making it easy to find and interact with TV series and actors.
+- **Play Tic Tac Toe:** Users can play the classic Tic Tac Toe game by taking turns to place their marks (X or O) on a 3x3 grid.
+- **View Move History:** The game keeps track of all the moves made by the players during the current session.
+- **Replay Moves:** Users have the option to replay earlier moves from the move history to review the game progression.
+- **Responsive UI:** The user interface is designed to be responsive and work seamlessly on various devices.
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/gauyash/BoxOffice.git
+   git clone https://github.com/gauyash/tictactoe.git
+
 
 2. Navigate to the project directory:
 
     ```bash
-    cd BoxOffice
+    cd tictactoe
 
 3. Install the dependencies:
 
@@ -37,14 +38,17 @@ The game should now be running on http://localhost:3000.
 
 
 ## Usage
-- Enter your search query in the search bar to find TV series and actors matching your query.
-- Click on a TV series to view detailed information about the show.
-- Click the star icon next to a TV series to save it as one of your favorite shows.
+
+- Open the game in your web browser.
+- The game board will be displayed with a 3x3 grid.
+- Players take turns to click on an empty cell to place their mark (X or O).
+- The game will notify you when a player wins, the game is a draw, or if it's still ongoing.
+- You can view the move history on the right-hand side of the screen.
+- To replay an earlier move, click on the corresponding move in the history.
 
 ## Technologies Used
 
 - React
-- React Router
 - Bootstrap
 - CSS
 - HTML
