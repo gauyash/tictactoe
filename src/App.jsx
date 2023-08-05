@@ -1,6 +1,6 @@
 import "./App.css";
-import { History } from "./components/History";
-import { Squares } from "./components/squares";
+import  History  from "./components/History";
+import  Squares  from "./components/squares";
 import { useState } from "react";
 
 function App() {
